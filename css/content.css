@@ -1,0 +1,153 @@
+body {
+	background-image: url('../img/background.jpg');
+	background-size: 100% 900px;
+    background-repeat: no-repeat;
+	color:white;
+}
+#jobb{
+	text-align:right
+}
+#table{
+	width:100%;
+	
+}
+#bal{
+	text-align:left;
+}
+#kozep{
+	text-align:center;
+}
+#sor3{
+	width:50%
+}
+#textarea{
+	width:50%;
+	height :100px;
+}
+
+#addbooktable{
+	text-align:center;
+	width:100%;
+	
+}
+.menu{
+	height: 30px;
+	width: 70%;
+	margin: 0px auto;
+	padding: 15px;
+	background-color:#8A4B08;
+	opacity:0.8;
+	text-align: center;
+	border-bottom: 1px solid white;
+	border-top: 1px solid white;
+}
+.login {
+	width: 70%;
+	margin: 0px auto;
+	padding: 15px;
+	background-color:#8A4B08;
+	opacity:0.8;
+	text-align: center;
+	border-bottom: 1px solid white;
+	border-top: 1px solid white;
+	min-height: 200px;
+}
+
+
+.footer {
+	width: 70%;
+	height: 40px;
+	margin: 0px auto;
+	padding: 15px;
+	background-color: #61380B;
+	opacity:0.8;
+	text-align:center;
+}
+
+.header {
+	width:70%;
+	text-align: center;
+	font-size: 24px;
+	font-weight: bold;
+	height: 80px;
+	margin: 30px auto 0px auto;
+	padding: 15px;
+	background-color: #B45F04;
+	opacity:0.8;
+}
+#zold{
+	color:green;
+}
+#piros{
+	color:red;
+}
+label {
+	text-align: center;
+}
+input[type=text]{
+	border-radius: 15px;
+    background-color: #F6E3CE;
+}
+
+input[type=text]:hover {
+	background-color: white;
+}
+input[type=search]{
+	border-radius: 15px;
+    background-color: #F6E3CE;
+}
+
+input[type=search]:hover {
+	background-color: white;
+}
+input[type=date]{
+	border-radius: 15px;
+    background-color: #F6E3CE;
+}
+
+input[type=date]:hover {
+	background-color: white;
+}
+input[type=password]{
+	border-radius: 15px;
+    background-color: #F6E3CE;
+}
+
+input[type=password]:hover{
+    background-color: white;
+}
+
+input[type=submit] {
+	border-radius: 15px;
+	box-shadow: 0 7px #61380B;
+	background-color: #F6E3CE;
+}
+
+input[type=submit]:hover{
+    background-color:#B45F04
+}
+input[type=submit]:active {
+ 
+  box-shadow: 0 5px #61380B;
+  transform: translateY(4px);
+}
+
+input[type=button] {
+	border-radius: 15px;
+	box-shadow: 0 7px #61380B;
+	background-color: #F6E3CE;
+}
+
+input[type=button]:hover{
+    background-color:#B45F04
+}
+input[type=button]:active {
+ 
+  box-shadow: 0 5px #61380B;
+  transform: translateY(4px);
+}
+
+span{
+	text-align:center;
+	font: italic bold 14px Georgia, serif;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="hu">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Login</title>
+		<script type="text/javascript" src="../scripts/content.js"></script>
+		<script type="text/javascript" src="../scripts/contentWiev.js"></script>
+		<script src="http://www.w3schools.com/lib/w3data.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+		<script type="text/javascript" src="../scripts/modernizr-custom.js"></script>
+		
+		<script type="text/javascript" src="../scripts/addview.js"></script>
+		<link rel="stylesheet" href="../css/content.css"/>
+
+	</head>
+	<body onload="nev()">
+		<div class="header" >
+			<form id="loginform" name="urlap" action="/logout" method="post">
+				<table id="table">
+					<tr><td id="bal" ><label id="label"></label></td>
+						<td id="kozep" ><label id="label">Project Management</label></td>
+						<td id="jobb" ><label id="labelname"></label></td>
+					</tr>
+					 <tr >
+						<td id="bal" ><label id="rang"></td>
+						<td id="kozep"><label id="messageon"><p id="zold">Online</p></label></td>
+						<td id= "jobb"><input  type="submit" id="submit" value="Logout"></td>
+					</tr>
+				</table>
+			</form>
+		</div>
+		<div class="menu" >
+			<table id="table" >
+				<tr>
+					<td id= "book"><input type="button" value="Project datas" onclick="userdata()"></td>
+					<td id= "book"><input type="button" id="comment" value="Comment Data" onclick="commentdata()"></td>
+					<td id= "book"><input type="button" id="addissue" value="Create Issue" onclick="addissue()"></td>
+					<td id= "book"><input type="button" id="adm" value="Add Comment" onclick="addcomment()"></td>
+					
+					
+				</tr>
+			</table>
+		</div>
+		<div class="login" id="login" ><h1>Welcome in </h1><br>
+		<img src="../img/project_manager.jpg">
+		</div>
+		<div class="footer"><script>document.write(document.lastModified);</script></td></div>
+	</body>
+</html>

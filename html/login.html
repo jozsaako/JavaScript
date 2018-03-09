@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="hu">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Login</title>
+		<script type="text/javascript" src="../scripts/logvalidator.js"></script>
+		<script type="text/javascript" src="../scripts/logvalidatorview.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+		<link rel="stylesheet" href="../css/login.css"/>
+
+	</head>
+	<body onload="log()">
+		<div class="header">Login</div>
+		<div class="login" >
+			<!-- <form id="loginform" name="urlap"  method="post"> -->
+			<div ng-app="">
+
+					<label id="error"></label><br><br>
+					<label for="username">Username:</label> 
+					<input type="text" id="username" name="username" ng-model="name" placeholder="Enter name here"><br><br>
+			 
+					<label for="password">Password: </label>
+					<input type="password" id="password" name="password" placeholder="Enter password here"><br><br>
+			  
+					<input onclick="login_click()" type="submit" id="submit" value="Login">
+					
+						
+					<h1>Welcome {{name}} !</h1>
+			</div>
+			<!-- </form> -->
+		</div>
+	</body>
+</html>
